@@ -1,0 +1,48 @@
+
+body {
+	margin:0;
+}
+
+
+header {
+
+	height: 418px;
+	position: relative;
+}
+
+
+
+#header-overlay {
+
+	background-image: url("http://www.zebumob.com/i/2017/02/nature-forest-wallpaper-high-quality.jpg");
+	/*background-repeat: cover;*/
+	height: 100%;
+	background-size: 100%;
+	position: absolute;
+    right: 0;
+    top: 0;
+    /* bottom: 10px; */
+    left: 0px;
+	
+
+}
+
+nav li{
+
+	display: inline-block;
+    background-color: lightgreen;
+    border-style: solid;
+    margin-left: 129px;
+}
+
+main {
+	border: solid;
+}
+
+.description {
+
+	display: inline-block;
+
+}
+
+
