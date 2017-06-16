@@ -1,13 +1,21 @@
 
 body {
 	margin:0;
+
 }
 
 
 header {
 
 	height: 418px;
-	position: relative;
+	position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 10px; 
+    left: 0px;
+    z-index: -1;
+    background-color: green;
+	
 }
 
 
@@ -18,31 +26,62 @@ header {
 	/*background-repeat: cover;*/
 	height: 100%;
 	background-size: 100%;
-	position: absolute;
-    right: 0;
-    top: 0;
-    /* bottom: 10px; */
-    left: 0px;
-	
+	opacity: 0.6;	
 
 }
 
-nav li{
+.container {
+
+	    margin: 0 84px;
+}
+
+
+nav li a{
 
 	display: inline-block;
-    background-color: lightgreen;
-    border-style: solid;
+    color: #3a9b31;
+    text-decoration: none;
+   
+}
+
+nav li{
+	display: inline-block;
     margin-left: 129px;
+    color: #3a9b31;
+
+
+}
+
+h4 {
+
+	color: #3a9b31;
+	padding-left: 49px;
 }
 
 main {
 	border: solid;
+	margin-top: 418px;
+	height: 1000px;
+	background-color: white;
 }
 
 .description {
 
 	display: inline-block;
+	width: 53%;
+	margin-left: 178px;
+	color: #3a9b31;
+
 
 }
+
+#profile-picture {
+
+	display: inline-block;
+	margin-left: 43px;
+    margin-bottom: 31px;
+}
+
+
 
 
